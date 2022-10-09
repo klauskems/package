@@ -17,7 +17,7 @@ func Dei(s []int, a int) []int {
 // )
 
 // func main() {
-// 	slice := []int{1, 2, 3, 4, 5, 6}
+// 	slice := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 // 	slice = pkg.Dei(slice, 3)
 // 	fmt.Println(slice)
 // }

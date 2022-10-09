@@ -2,6 +2,9 @@ package ragular
 
 import "fmt"
 
-func Ragular() {
-	fmt.Println("안녕하세요")
+type FedexSender struct {
+}
+
+func (f *FedexSender) Send(parcel string) {
+	fmt.Printf("Fedex sends %s parce \n", parcel)
 }
